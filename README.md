@@ -107,9 +107,9 @@ Generates filter options with active states and toggle URLs for building the fil
     'hasActive' => bool, 
     'options' => [  
         'fieldName' => [  
-            'name' => 'Name'  
+            'name' => string 
             'items' => [  
-                'value' => 'optionValue',  
+                'value' => string,  
                 'active' => bool,
                 'url' => string
             ],  
