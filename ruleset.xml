@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="PSR-12 Standard with Ignored File Doc Comments">
+    <description>Enforces PSR-12 coding standards, ignoring file doc comments.</description>
+
+    <!-- Include the PSR-12 coding standard -->
+    <rule ref="PSR12"/>
+
+    <!-- Ignore file doc comments -->
+    <rule ref="PSR12.Files.FileHeader">
+        <exclude name="PSR12.Files.FileHeader"/>
+    </rule>
+</ruleset>
