@@ -94,7 +94,7 @@ Controls how multiple field filters are combined:
 
 Returns the filtered subset of pages based on current filter parameters.
 
-**Returns:**
+**Returns:**  
 `Kirby\Cms\Collection`
 
 ### `getFilterOptions()`
@@ -102,7 +102,7 @@ Returns the filtered subset of pages based on current filter parameters.
 Generates filter options with active states and toggle URLs for building the filter interface.
 
 **Returns:**  
-```  
+```php
 [   
     'hasActive' => bool, 
     'options' => [  
