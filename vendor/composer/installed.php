@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'wirdwird/filter',
+        'name' => 'wirdwird/filters',
         'pretty_version' => '0.8.0',
         'version' => '0.8.0.0',
         'reference' => NULL,
@@ -19,7 +19,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'wirdwird/filter' => array(
+        'wirdwird/filters' => array(
             'pretty_version' => '0.8.0',
             'version' => '0.8.0.0',
             'reference' => NULL,

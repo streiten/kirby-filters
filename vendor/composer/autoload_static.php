@@ -4,12 +4,12 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0b24f467c478bddbece71784a93728c6
+class ComposerStaticInitd6caf3eb6afd4edad67866c04443f925
 {
     public static $prefixLengthsPsr4 = array (
         'w' => 
         array (
-            'wirdwird\\Filter\\' => 16,
+            'wirdwird\\Filters\\' => 17,
         ),
         'K' => 
         array (
@@ -18,7 +18,7 @@ class ComposerStaticInit0b24f467c478bddbece71784a93728c6
     );
 
     public static $prefixDirsPsr4 = array (
-        'wirdwird\\Filter\\' => 
+        'wirdwird\\Filters\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -35,9 +35,9 @@ class ComposerStaticInit0b24f467c478bddbece71784a93728c6
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0b24f467c478bddbece71784a93728c6::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0b24f467c478bddbece71784a93728c6::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit0b24f467c478bddbece71784a93728c6::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd6caf3eb6afd4edad67866c04443f925::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd6caf3eb6afd4edad67866c04443f925::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitd6caf3eb6afd4edad67866c04443f925::$classMap;
 
         }, null, ClassLoader::class);
     }

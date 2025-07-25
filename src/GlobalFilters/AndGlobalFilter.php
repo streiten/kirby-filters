@@ -1,5 +1,5 @@
 <?php
-namespace wirdwird\Filter\GlobalFilters;
+namespace wirdwird\Filters\GlobalFilters;
 
 /**
  * Implements global filtering using AND logic.

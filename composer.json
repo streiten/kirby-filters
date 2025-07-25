@@ -1,9 +1,11 @@
 {
-  "name": "wirdwird/filter",
+  "name": "wirdwird/filters",
   "description": "Collection filtering.",
   "version": "0.8.0",
   "type": "kirby-plugin",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Alex Tolar",
@@ -15,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "wirdwird\\Filter\\": "src/"
+      "wirdwird\\Filters\\": "src/"
     }
   },
   "config": {

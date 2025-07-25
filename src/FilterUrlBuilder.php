@@ -1,5 +1,5 @@
 <?php
-namespace wirdwird\Filter;
+namespace wirdwird\Filters;
 
 /**
  * Utility class for building filter toggle URLs.

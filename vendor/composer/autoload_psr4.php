@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'wirdwird\\Filter\\' => array($baseDir . '/src'),
+    'wirdwird\\Filters\\' => array($baseDir . '/src'),
     'Kirby\\' => array($vendorDir . '/getkirby/composer-installer/src'),
 );

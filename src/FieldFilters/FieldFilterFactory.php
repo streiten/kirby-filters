@@ -1,11 +1,11 @@
 <?php
-namespace wirdwird\Filter\FieldFilters;
+namespace wirdwird\Filters\FieldFilters;
 
-use wirdwird\Filter\FieldFilters\BooleanFieldFilter;
-use wirdwird\Filter\FieldFilters\ListFieldFilter;
-use wirdwird\Filter\FieldFilters\NumericFieldFilter;
-use wirdwird\Filter\FieldFilters\DateFieldFilter;
-use wirdwird\Filter\FieldFilters\StringFieldFilter;
+use wirdwird\Filters\FieldFilters\BooleanFieldFilter;
+use wirdwird\Filters\FieldFilters\ListFieldFilter;
+use wirdwird\Filters\FieldFilters\NumericFieldFilter;
+use wirdwird\Filters\FieldFilters\DateFieldFilter;
+use wirdwird\Filters\FieldFilters\StringFieldFilter;
 
 /**
  * Factory for creating field filter logic based on field definitions.

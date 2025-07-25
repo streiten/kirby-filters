@@ -1,5 +1,5 @@
 <?php
-namespace wirdwird\Filter\FieldFilters;
+namespace wirdwird\Filters\FieldFilters;
 
 use Kirby\Cms\Page;
 

@@ -1,11 +1,11 @@
 <?php
 
 use Kirby\Cms\App as Kirby;
-use wirdwird\Filter\FilterManager;
+use wirdwird\Filters\FilterManager;
 
 @include_once __DIR__ . '/vendor/autoload.php';
 
-Kirby::plugin('wirdwird/filter', [
+Kirby::plugin('wirdwird/filters', [
     'snippets' => [
         'filters' => __DIR__ . '/snippets/filters.php',
     ]

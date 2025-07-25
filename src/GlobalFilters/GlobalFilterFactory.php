@@ -1,8 +1,8 @@
 <?php
-namespace wirdwird\Filter\GlobalFilters;
+namespace wirdwird\Filters\GlobalFilters;
 
-use wirdwird\Filter\GlobalFilters\OrGlobalFilter;
-use wirdwird\Filter\GlobalFilters\AndGlobalFilter;
+use wirdwird\Filters\GlobalFilters\OrGlobalFilter;
+use wirdwird\Filters\GlobalFilters\AndGlobalFilter;
 
 /**
  * Factory for global filtering strategies (AND/OR).

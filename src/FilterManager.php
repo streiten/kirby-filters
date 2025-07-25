@@ -1,10 +1,10 @@
 <?php
-namespace wirdwird\Filter;
+namespace wirdwird\Filters;
 
 use Kirby\Cms\Collection;
-use wirdwird\Filter\FieldFilters\FieldFilterFactory;
-use wirdwird\Filter\GlobalFilters\GlobalFilterFactory;
-use wirdwird\Filter\FilterUrlBuilder;
+use wirdwird\Filters\FieldFilters\FieldFilterFactory;
+use wirdwird\Filters\GlobalFilters\GlobalFilterFactory;
+use wirdwird\Filters\FilterUrlBuilder;
 
 /**
  * Manages filtering operations on a Kirby page collection.
